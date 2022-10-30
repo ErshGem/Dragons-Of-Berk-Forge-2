@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="All Rights Reserved to TekHexs"
+issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+modId="dragonsofberk"
+version="0.4"
+displayName="Dragons of Berk"
+#updateJSONURL=""
+displayURL=""
+logoFile="logo.png"
+credits=""
+authors="TekHexs, SmilePoneh, Ersh Gem" #optional
+description='''
+'''
+
+[[dependencies.mysticalflames]]
+modId="forge"
+mandatory=true
+versionRange="[39,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mysticalflames]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.1,1.19)"
+ordering="NONE"
+side="BOTH"
+
