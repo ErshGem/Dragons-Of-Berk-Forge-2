@@ -1,6 +1,7 @@
 package com.tekhexs.dragonsofberk;
 
 import com.tekhexs.dragonsofberk.init.ModItems;
+import com.tekhexs.dragonsofberk.init.ModStructures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +28,7 @@ public class DragonsOfBerk
 
         //Registries
         ModItems.register(eventbus);
+        ModStructures.register(eventbus);
 
         //Config
     }

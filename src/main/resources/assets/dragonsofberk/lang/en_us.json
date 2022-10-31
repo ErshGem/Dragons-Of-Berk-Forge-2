@@ -1,3 +1,16 @@
 {
-    "item.dragonsofberk.crab": "Crab"
+    "item.dragonsofberk.crab": "Crab",
+    "item.dragonsofberk.eel": "Eel",
+    "item.dragonsofberk.dragon_nip": "Dragon Nip",
+
+    "item.dragonsofberk.valka_staff": "Valka's Staff",
+    "item.dragonsofberk.viking_axe": "Viking Axe",
+
+    "item.dragonsofberk.night_fury_scale": "Night Fury Scale",
+    "item.dragonsofberk.deadly_nadder_scale": "Deadly Nadder Scale",
+    "item.dragonsofberk.monstrous_nightmare_scale": "Monstrous Nightmare Scale",
+    "item.dragonsofberk.gronckle_scale": "Gronckle Scale",
+
+
+    "itemGroup.dob_items": "Dragons of Berk Items"
 }

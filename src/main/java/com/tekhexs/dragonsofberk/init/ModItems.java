@@ -16,7 +16,25 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, DragonsOfBerk.MOD_ID);
 
     public static final RegistryObject<Item> CRAB = ITEMS.register( "crab",
-            () -> new Item (new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+    public static final RegistryObject<Item> EEL = ITEMS.register( "eel",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+    public static final RegistryObject<Item> DRAGON_NIP = ITEMS.register( "dragon_nip",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+
+    public static final RegistryObject<Item> NIGHT_FURY_SCALE = ITEMS.register( "night_fury_scale",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+    public static final RegistryObject<Item> DEADLY_NADDER_SCALE = ITEMS.register( "deadly_nadder_scale",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+    public static final RegistryObject<Item> MONSTROUS_NIGHTMARE_SCALE = ITEMS.register( "monstrous_nightmare_scale",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+    public static final RegistryObject<Item> GRONCKLE_SCALE = ITEMS.register( "gronckle_scale",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+
+    public static final RegistryObject<Item> VALKA_STAFF = ITEMS.register( "valka_staff",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+    public static final RegistryObject<Item> VIKING_AXE = ITEMS.register( "viking_axe",
+            () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 
