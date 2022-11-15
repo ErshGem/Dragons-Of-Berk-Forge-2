@@ -5,6 +5,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -35,6 +36,18 @@ public class ModItems {
             () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
     public static final RegistryObject<Item> VIKING_AXE = ITEMS.register( "viking_axe",
             () -> new Item (new Item.Properties().tab(ModCreativeModeTab.DOB_ITEMS)));
+
+    // spawn eggs
+    public static final RegistryObject<ForgeSpawnEggItem> NIGHTMARE_SPAWN_EGG =
+            ITEMS.register("monstrous_nightmare_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.MONSTROUS_NIGHTMARE,
+                    0x6D1D08, 0xD86A12, new Item.Properties()
+                    .tab(ModCreativeModeTab.DOB_SPAWNS)
+                    .stacksTo(64)));
+    public static final RegistryObject<ForgeSpawnEggItem> NADDER_SPAWN_EGG =
+            ITEMS.register("deadly_nadder_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.DEADLY_NADDER,
+                    0x00BFFF, 0xFFE400, new Item.Properties()
+                    .tab(ModCreativeModeTab.DOB_SPAWNS)
+                    .stacksTo(64)));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 

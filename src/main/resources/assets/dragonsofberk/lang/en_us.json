@@ -13,6 +13,14 @@
 
     "block.dragonsofberk.hatchery": "Hatchery",
 
+    "item.dragonsofberk.monstrous_nightmare_spawn_egg": "Monstrous Nightmare Spawn Egg",
+    "item.dragonsofberk.deadly_nadder_spawn_egg": "Deadly Nadder Spawn Egg",
 
-    "itemGroup.dob_items": "Dragons of Berk Items"
+    "itemGroup.dob_items": "Dragons of Berk Items",
+
+    "key.category.dragonsofberk": "Dragons Of Berk",
+    "key.dragonsofberk.descend": "Dragon Descend",
+
+    "entity.dragonsofberk.nadder": "Deadly Nadder",
+    "entity.dragonsofberk.nightmare": "Monstrous Nightmare"
 }

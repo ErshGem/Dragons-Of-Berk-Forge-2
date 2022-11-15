@@ -15,17 +15,24 @@ authors="TekHexs, SmilePoneh, Ersh Gem" #optional
 description='''
 '''
 
-[[dependencies.mysticalflames]]
+[[dependencies.dragonsofberk]]
 modId="forge"
 mandatory=true
 versionRange="[39,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.mysticalflames]]
+[[dependencies.dragonsofberk]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.18.1,1.19)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.geckolib3]]
+modId="geckolib3"
+mandatory=true
+versionRange="[3.0.18,)"
 ordering="NONE"
 side="BOTH"
 

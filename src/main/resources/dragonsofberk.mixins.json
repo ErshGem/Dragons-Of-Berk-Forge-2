@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.tekhexs.dragonsofberk.mixins",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dragonsofberk.mixins.refmap.json",
+  "mixins": [
+    "EnsureSafeFlyingVehicleMixin"
+  ],
+  "client": [
+  ]
+}
