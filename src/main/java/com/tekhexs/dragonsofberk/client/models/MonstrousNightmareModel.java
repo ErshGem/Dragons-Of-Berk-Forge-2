@@ -44,7 +44,22 @@ public class MonstrousNightmareModel extends AnimatedGeoModel<EntityMonstrousNig
 
     @Override
     public ResourceLocation getTextureLocation(EntityMonstrousNightmare object) {
-        return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/nightmare.png");
+        //return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/red_monstrous_nightmare_texture.png");
+        switch (object.getDragonVariant()) {
+            default:
+            case 0:
+                return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/red_monstrous_nightmare_texture.png");
+            case 1:
+                return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/blue_monstrous_nightmare_texture.png");
+            case 2:
+                return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/brown_monstrous_nightmare_texture.png");
+            case 3:
+                return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/green_monstrous_nightmare_texture.png");
+            case 4:
+                return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/grey_monstrous_nightmare_texture.png");
+            case 5:
+                return new ResourceLocation(DragonsOfBerk.MOD_ID, "textures/dragons/nightmare/purple_monstrous_nightmare_texture.png");
+        }
     }
 
     @Override

@@ -49,7 +49,7 @@ public class EntityDeadlyNadder extends AbstractDragonBase {
             return PlayState.CONTINUE;
         }
         if(this.isInSittingPose() && this.onGround) {
-            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.deadly_nadder.idle", true));
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.deadly.nadder.sit", true));
             return PlayState.CONTINUE;
         }
         event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.deadly_nadder.idle", true));
