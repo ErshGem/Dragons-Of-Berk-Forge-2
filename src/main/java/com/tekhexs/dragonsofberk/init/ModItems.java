@@ -48,6 +48,11 @@ public class ModItems {
                     0x00BFFF, 0xFFE400, new Item.Properties()
                     .tab(ModCreativeModeTab.DOB_SPAWNS)
                     .stacksTo(64)));
+    public static final RegistryObject<ForgeSpawnEggItem> ZIPPLEBACK_SPAWN_EGG =
+            ITEMS.register("zippleback_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.ZIPPLEBACK,
+                    0x53804e, 0x7e3333, new Item.Properties()
+                    .tab(ModCreativeModeTab.DOB_SPAWNS)
+                    .stacksTo(64)));
 
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 

@@ -3,6 +3,7 @@ package com.tekhexs.dragonsofberk.init;
 import com.tekhexs.dragonsofberk.DragonsOfBerk;
 import com.tekhexs.dragonsofberk.entity.EntityDeadlyNadder;
 import com.tekhexs.dragonsofberk.entity.EntityMonstrousNightmare;
+import com.tekhexs.dragonsofberk.entity.EntityZippleback;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -30,6 +31,14 @@ public class ModEntities {
                     .setShouldReceiveVelocityUpdates(false)
                     .fireImmune()
                     .build(new ResourceLocation(DragonsOfBerk.MOD_ID, "nadder").toString()));
+
+    public static final RegistryObject<EntityType<EntityZippleback>> ZIPPLEBACK =
+            ENTITIES.register("zippleback", () -> EntityType.Builder.of(EntityZippleback::new, MobCategory.CREATURE)
+                    .sized(1.3F, 1.1F)
+                    .clientTrackingRange(50)
+                    .setShouldReceiveVelocityUpdates(false)
+                    .fireImmune()
+                    .build(new ResourceLocation(DragonsOfBerk.MOD_ID, "zippleback").toString()));
 
     public static void register(IEventBus eventBus) {
         ENTITIES.register(eventBus);

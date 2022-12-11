@@ -3,6 +3,7 @@ package com.tekhexs.dragonsofberk.events;
 import com.tekhexs.dragonsofberk.DragonsOfBerk;
 import com.tekhexs.dragonsofberk.client.render.RenderDeadlyNadder;
 import com.tekhexs.dragonsofberk.client.render.RenderMonstrousNightmare;
+import com.tekhexs.dragonsofberk.client.render.RenderZippleback;
 import com.tekhexs.dragonsofberk.init.ModEntities;
 import com.tekhexs.dragonsofberk.init.ModKeybinds;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -24,5 +25,6 @@ public class ClientSetup {
     public static void registerRenderers(final EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.MONSTROUS_NIGHTMARE.get(), RenderMonstrousNightmare::new);
         event.registerEntityRenderer(ModEntities.DEADLY_NADDER.get(), RenderDeadlyNadder::new);
+        event.registerEntityRenderer(ModEntities.ZIPPLEBACK.get(), RenderZippleback::new);
     }
 }

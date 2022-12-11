@@ -15,6 +15,7 @@
 
     "item.dragonsofberk.monstrous_nightmare_spawn_egg": "Monstrous Nightmare Spawn Egg",
     "item.dragonsofberk.deadly_nadder_spawn_egg": "Deadly Nadder Spawn Egg",
+    "item.dragonsofberk.zippleback_spawn_egg": "Hideous Zippleback Spawn Egg",
 
     "itemGroup.dob_items": "Dragons of Berk Items",
     "itemGroup.dob_spawns": "Dragons of Berk Spawn Eggs",
@@ -24,6 +25,7 @@
 
     "entity.dragonsofberk.nadder": "Deadly Nadder",
     "entity.dragonsofberk.nightmare": "Monstrous Nightmare",
+    "entity.dragonsofberk.zippleback": "Hideous Zippleback"
 
 
 }
